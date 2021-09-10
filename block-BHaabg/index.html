@@ -1,0 +1,92 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./stylesheet/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a class="brand" href="#">
+                <img src="./media/logo.png" alt="logo">
+            </a>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container clearfix">
+            <article class="article">
+                <div class="content col">
+                    <h2>Introduction</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, atque distinctio. Ullam veniam repudiandae facere optio mollitia repellendus reprehenderit quas commodi dolorem ex! Qui possimus atque non totam quo provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore perspiciatis possimus quisquam. In quos aliquid facere dolores eos quaerat numquam voluptatibus cupiditate, cumque soluta deleniti porro facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat provident dolorem assumenda possimus fugiat nostrum velit aperiam necessitatibus, facere, beatae repellendus ipsa quo iusto totam vero et aliquid odio adipisci</p>
+                </div>
+                <div class="content col">
+                    <img src="./media/college1.png" alt="college1">
+                </div>
+            </article>
+        </div>   
+        <section class="section">
+            <div class="container clearfix">
+                <div class="content img-col">
+                    <img src="./media/college2.png" alt="college2">
+                </div>
+                <div class="content img-col">
+                    <img src="./media/college3.png" alt="college3">
+                </div>
+                <div class="content img-col">
+                    <img src="./media/college4.png" alt="college4">
+                </div>
+            </div>    
+        </section>    
+        <section class="section">
+            <div class="container clearfix">
+                <div class="content img-col">
+                    <img src="./media/college5.png" alt="college5">
+                </div>
+                <div class="content img-col">
+                    <img src="./media/college6.png" alt="college6">
+                </div>
+                <div class="content img-col">
+                    <img src="./media/college7.png" alt="college7">
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="top">
+                <a href="./index.html">
+                    <p>TOP</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <h3>Thanks fo visiting!</h3>
+        </div>
+    </footer>
+    
+</body>
+</html>
